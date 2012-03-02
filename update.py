@@ -54,7 +54,7 @@ def check(url, check_type='status', content='', title=''):
     elif check_type == 'title':
         try:
             parsedtitle = parsetitle(url)
-            if titlestring in parsedtitle:
+            if title in parsedtitle:
                 return 'online'
         except:
             pass
