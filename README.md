@@ -54,6 +54,10 @@ sitestatus features four different ways to check the status of any given site, w
 Next Steps
 ----------
 
+### Domain Setup
+
+If you have a domain you'd like to host your status page on, you can add a domain to your app by going to the Application Settings page on your Google App Engine dashboard.
+
 ### Site Themes
 
 sitestatus comes with a bare-bones example template (`index.html`) that you should feel free to modify and style however you like. If you want to add CSS, Javascript, or other static files, remember to add the appropriate file or directory handlers in `app.yaml`.
