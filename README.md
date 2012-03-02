@@ -64,7 +64,7 @@ sitestatus comes with a bare-bones example template (`index.html`) that you shou
 
 ### Need Help?
 
-For more information visit <http://sitestatus.gilgi.org>. Direct all questions, comments, and bug reports to <sclabs@gilgi.org>.
+For more information visit <http://sclabs.gilgi.org/sitestatus/>. Direct all questions, comments, and bug reports to <sclabs@gilgi.org>.
 
 License Information
 -------------------
