@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>{{ sitetitle }}</title>
+<link rel="stylesheet" type="text/css" href="status.css"/>
+</head>
+<body>
+<h1>{{ sitetitle }}</h1>
+<table border="1">
+  <tr class="header">
+    <td>service</td>
+    <td>url</td>
+    <td>status</td>
+    <td>comment</td>
+  </tr>
+  {% for site in statuses %}
+  <tr>
+    <td>{{ site.description }}</td>
+    <td><a href ="{{ site.link_url }}">{{ site.link_url }}</a></td>
+    <td class="{{ site.status }}">{{ site.status }}</td>
+    <td>{{ site.comment }}</td>
+  </tr>
+  {% endfor %}
+</table>
+<p>status last updated {{ timestamp }}</p>
+</body>
+</html>
