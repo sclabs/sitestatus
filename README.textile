@@ -40,10 +40,10 @@ h3. Update Types
 
 sitestatus features four different ways to check the status of any given site, which you can change by modifying the `update_type` property of the site you want to change in the Datastore Viewer. These are:
 
-1. @none@ - This is the default update type, which causes the update mechanism to ignore this site and never update its status. Use this for custom statuses like "coming soon", etc.
-2. @status@ - This is probably the update type you will use most. It tells the update mechanism to send a request to the url in @update_url@. If the response has a status code of @200 OK@, the status will be updated to "online". Otherwise, it will be updated to "offline".
-3. @title@ - This update type looks at the title of the webpage at @update_url@ and checks to see if it contains the string in @update_title@.
-4. @content@ - This update type looks at the entire content of the HTTP response returned by the site at @update_url@ and checks to see if it contains the string in @update_content@.
+# @none@ - This is the default update type, which causes the update mechanism to ignore this site and never update its status. Use this for custom statuses like "coming soon", etc.
+# @status@ - This is probably the update type you will use most. It tells the update mechanism to send a request to the url in @update_url@. If the response has a status code of @200 OK@, the status will be updated to "online". Otherwise, it will be updated to "offline".
+# @title@ - This update type looks at the title of the webpage at @update_url@ and checks to see if it contains the string in @update_title@.
+# @content@ - This update type looks at the entire content of the HTTP response returned by the site at @update_url@ and checks to see if it contains the string in @update_content@.
 
 h2. Next Steps
 
