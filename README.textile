@@ -23,14 +23,14 @@ Feel free to fork the repository and develop your own tweaks and features under 
 
 h2. Quick-Start (in Eight Easy Steps)
 
-1. Go to "appengine.google.com":http://appengine.google.com, log in with your Google Account, and follow the instructions to enable Google App Engine for your account (if you haven't done so already).
-2. Create a new app, and remember your app's application identifier.
-3. In @app.yaml@, replace @myapp@ with the application identifier for your app.
-4. In @settings.py@, change @SITE_TITLE@ from @My Awesome Status Page@ to whatever you actually want to call your site.
-5. Run @python manage.py deploy@ and authenticate with your Google Account when prompted.
-6. Run @python manage.py remote createsuperuser@ to create a superuser for yourself.
-7. Point your browser to "your_application_identifier.appspot.com/update/":http://your_application_identifier.appspot.com/update/
-8. Change the example status entry from the Datastore Viewer in your application's Google App Engine dashboard to whatever site you want to track.
+# Go to "appengine.google.com":http://appengine.google.com, log in with your Google Account, and follow the instructions to enable Google App Engine for your account (if you haven't done so already).
+# Create a new app, and remember your app's application identifier.
+# In @app.yaml@, replace @myapp@ with the application identifier for your app.
+# In @settings.py@, change @SITE_TITLE@ from @My Awesome Status Page@ to whatever you actually want to call your site.
+# Run @python manage.py deploy@ and authenticate with your Google Account when prompted.
+# Run @python manage.py remote createsuperuser@ to create a superuser for yourself.
+# Point your browser to "your_application_identifier.appspot.com/update/":http://your_application_identifier.appspot.com/update/
+# Change the example status entry from the Datastore Viewer in your application's Google App Engine dashboard to whatever site you want to track.
 
 It's that simple! Point your browser to "your_application_identifier.appspot.com":http://your_application_identifier.appspot.com to see your status page!
 
