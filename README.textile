@@ -61,4 +61,4 @@ For more information visit "sclabs.gilgi.org/sitestatus/":http://sclabs.gilgi.or
 
 h2. License Information
 
-sitestatus is released under the terms of the GNU General Public License, the full text of which is available in the file @GPL@ in the github repository. For details, please visit "www.gnu.org/licenses/gpl.html":http://www.gnu.org/licenses/gpl.html.
+sitestatus is released under the terms of the GNU General Public License, the full text of which is available in the file @GPL@. For details, please visit "www.gnu.org/licenses/gpl.html":http://www.gnu.org/licenses/gpl.html.
